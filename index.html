@@ -6,60 +6,344 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kausik - Portfolio</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+                <li><a href="#experience"><i class="fas fa-history"></i> Experience</a></li>
+                <li><a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a></li>
             </ul>
+
         </nav>
     </header>
 
     <section id="about">
-        <h1>About Me</h1>
-        <p>Brief introduction about yourself...</p>
+
+        <div class="aboutcontainer">
+            <div class="aboutcardDet">
+                <!-- <h1 style="text-align: center;color: greenyellow;font-weight: bolder;">About</h1> -->
+                <p class="heading">
+                    Hi!, I'm Kausik.
+                </p>
+                <p class="detail">
+                    I'm a FullStack Developer.
+                </p>
+
+                <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    I am a versatile Full Stack Developer with a strong foundation in both frontend and backend
+                    technologies.
+                    I am passionate about continuous learning and enjoy staying updated with the latest industry trends
+                    and best practices.
+                    I thrive in collaborative environments and am always eager to take on new challenges and contribute
+                    to impactful
+                    projects.
+                </p>
+
+            </div>
+        </div>
+
     </section>
 
     <section id="skills">
-        <h1>Skills</h1>
-        <ul>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>MongoDB</li>
-            <!-- More skills -->
-        </ul>
+        <p class="detail" style="text-align: center;">
+            Skills
+        </p>
+        <div class="skillsContainer">
+            <div class="skillscardDet">
+                <img src="./assets/images/js.png" alt="">
+                <p>
+                    JavaScript
+                </p>
+            </div>
+            <div class="skillscardDet">
+                <img src="./assets/images/react.png" alt="">
+                <p>
+                    React
+                </p>
+
+            </div>
+            <div class="skillscardDet">
+                <img src="./assets/images/node.png" alt="">
+                <p>
+                    NodeJS
+                </p>
+
+            </div>
+            <div class="skillscardDet">
+                <img src="./assets/images/express.png" alt="">
+                <p>
+                    Express
+                </p>
+
+            </div>
+            <div class="skillscardDet">
+                <img src="./assets/images/MongoDB.png" alt="">
+                <p>
+                    MongoDB
+                </p>
+
+            </div>
+            <div class="skillscardDet">
+                <img src="./assets/images/github.png" alt="">
+                <p>
+                    Github
+                </p>
+
+            </div>
+            <div class="skillscardDet">
+                <img src="./assets/images/msSql.png" alt="">
+                <p>
+                    My SQL
+                </p>
+
+            </div>
+            <div class="skillscardDet">
+                <img src="./assets/images/html5.png" alt="">
+                <p>
+                    HTML5
+                </p>
+
+            </div>
+            <div class="skillscardDet">
+                <img src="./assets/images/css3.png" alt="">
+                <p>
+                    CSS3
+                </p>
+
+            </div>
+            <div class="skillscardDet">
+                <img src="./assets/images/java.png" alt="">
+                <p>
+                    Core Java
+                </p>
+
+            </div>
+            <div class="skillscardDet">
+                <img src="./assets/images/bootstrap.png" alt="">
+                <p>
+                    Bootstrap
+                </p>
+
+            </div>
+        </div>
     </section>
 
+
+
+    </div>
+
     <section id="projects">
-        <h1>Projects</h1>
-        <!-- Project details -->
+        <p class="detail" style="text-align: center;">
+            Projects
+        </p>
+        <div class="skillsContainer" style="font-family: sans-serif;">
+            <div class="projectcardDet">
+                <div class="projectcard-image"><img src="./assets/images/projectBg.jpeg" alt=""> </div>
+                <p class="projectcard-title" style="color: #c49dff;font-size: large;">Zen class Ticketing system for
+                    query resolving</p>
+                <p class="projectcard-body"
+                    style=" font-family: 'Gill Sans' , 'Gill Sans MT' , Calibri, 'Trebuchet MS' , sans-serif;padding: 5px;">
+                    The Zen Class Ticketing System is designed to facilitate the resolution of queries within the Zen
+                    Class platform. It
+                    offers distinct user roles - Admin, Mentor, and Student - each with specific authorization levels.
+                </p>
+                <button class="codeButton" onclick="ticketingSystem()">
+                    Get Code
+                    <div class="iconButton">
+                        <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </button>
+
+            </div>
+
+        </div>
+
     </section>
 
     <section id="experience">
-        <h1>Experience</h1>
-        <!-- Experience details -->
+        <p class="detail" style="text-align: center;">
+            Professional Experience
+        </p>
+        <div class="expContainer">
+            <p style="font-family: monospace;font-size: xx-large;font-weight: 900;font-stretch: semi-expanded;">
+                Junior Programmer
+            </p>
+
+            <hr
+                style="border: none; height: 2px; background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%); width: 100%;">
+            <p style="font-family: monospace;font-size: larger;font-weight: 500;">
+                <strong style="font-size: 25px;font-weight: 800;">Jenixcloud Software Solutions Pvt.Ltd - </strong> FEB
+                2022 to OCT 2023
+            </p>
+            <p>
+            <ul
+                style=" font-family: 'Gill Sans' , 'Gill Sans MT' , Calibri, 'Trebuchet MS' , sans-serif;padding: 10px;list-style-type: square;">
+                <li>My roles included designing and implementing user interfaces, as well as developing server-side
+                    logic, database
+                    integration, and error handling.</li>
+                <li>
+                    Throughout my tenure, I actively contributed to the creation of dynamic and user-friendly web
+                    applications, ensuring
+                    robust error handling mechanisms for enhanced reliability and performance.
+                </li>
+            </ul>
+            </p>
+        </div>
     </section>
 
     <section id="achievements">
-        <h1>Achievements</h1>
-        <!-- Achievements details -->
+        <p class="detail" style="text-align: center;">
+            Achievements
+        </p>
+        <div class="achivConatiner">
+            <div class="achivcardDet">
+                <img onclick="BootstrapCertificate()" src="./assets/images/BootstrapCertificate.png" alt="">
+                <p>
+                    Bootstrap
+                </p>
+            </div>
+            <div class="achivcardDet">
+                <img onclick="CSS3Certificate()" src="./assets/images/CSS3Certificate.png" alt="">
+                <p>
+                    CSS3
+                </p>
+            </div>
+            <div class="achivcardDet">
+                <img onclick="FSDCertificate()" src="./assets/images/FSDCertificate.png" alt="">
+                <p>
+                    FullStack Developer
+                </p>
+            </div>
+            <div class="achivcardDet">
+                <img onclick="HTML5Certificate()" src="./assets/images/HTML5Certificate.png" alt="">
+                <p>
+                    HTML5
+                </p>
+            </div>
+            <div class="achivcardDet">
+                <img onclick="JavascriptCertificate()" src="./assets/images/JavascriptCertificate.png" alt="">
+                <p>
+                    JavaScript
+                </p>
+            </div>
+            <div class="achivcardDet">
+                <img onclick="MongoDBCertificate()" src="./assets/images/MongoDBCertificate.png" alt="">
+                <p>
+                    MongoDB
+                </p>
+            </div>
+            <div class="achivcardDet">
+                <img onclick="MySQLCertificate()" src="./assets/images/MySQLCertificate.png" alt="">
+                <p>
+                    My SQL
+                </p>
+            </div>
+            <div class="achivcardDet">
+                <img onclick="NodeJsCertificate()" src="./assets/images/NodeJsCertificate.png" alt="">
+                <p>
+                    NodeJS
+                </p>
+            </div>
+            <div class="achivcardDet">
+                <img onclick="ReactJSCertificate()" src="./assets/images/ReactJSCertificate.png" alt="">
+                <p>
+                    ReactJS
+                </p>
+            </div>
+
+        </div>
+
     </section>
 
     <footer>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-        <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
-        <a href="https://drive.google.com/file/d/your-resume-id/view?usp=sharing" target="_blank">Resume</a>
-        <a href="https://yourblog.com" target="_blank">Blog</a>
+
+        <div class="footerContainer1">
+            <p class="detail">
+                Get in touch.
+            </p>
+            <p class="socialDescription"
+                style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                Connect with me on the socials below to stay updated on my work and professional journey. Feel free to
+                explore my
+                projects, view my resume, or reach out for collaboration.
+            </p>
+            <br>
+            <div class="socials" style="width: 100%;">
+                <ul class="example-2">
+                    <li class="icon-content">
+                        <a href="https://www.linkedin.com/in/kausik-mohan-929825266/" aria-label="LinkedIn"
+                            target="_blank" data-social="linkedin">
+                            <div class="filled"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 16 16" xml:space="preserve">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                        <div class="tooltip">LinkedIn</div>
+                    </li>
+                    <li class="icon-content">
+                        <a href="https://github.com/kausikrstnj" aria-label="GitHub" data-social="github"
+                            target="_blank">
+                            <div class="filled"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-github" viewBox="0 0 16 16" xml:space="preserve">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </a>
+                        <div class="tooltip">GitHub</div>
+                    </li>
+
+                </ul>
+
+
+            </div>
+            <br>
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">&copy; 2024
+                    KAUSIK.M . All rights reserved.</p>
+            </div>
+
+        </div>
+        <div class="footerContainer2">
+            <button class="footerButton1">
+                <span>Contact </span>
+            </button>
+
+
+            <a class="footerButton2" href="./assets/images/KAUSIK.M.docx" download="Kausik.M.docx">
+                <span>Get CV </span>
+            </a>
+        </div>
+
     </footer>
 
+
     <script src="assets/js/scripts.js"></script>
+
 </body>
 
 </html>
