@@ -37,7 +37,6 @@
 
         <div class="aboutcontainer">
             <div class="aboutcardDet">
-                <!-- <h1 style="text-align: center;color: greenyellow;font-weight: bolder;">About</h1> -->
                 <p class="heading">
                     Hi!, I'm Kausik.
                 </p>
@@ -163,16 +162,144 @@
                     Class platform. It
                     offers distinct user roles - Admin, Mentor, and Student - each with specific authorization levels.
                 </p>
-                <button class="codeButton" onclick="ticketingSystem()">
-                    Get Code
-                    <div class="iconButton">
-                        <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0h24v24H0z" fill="none"></path>
-                            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                                fill="currentColor"></path>
-                        </svg>
-                    </div>
-                </button>
+                <div class="contaier"
+                    style="justify-content: space-evenly;display: flex;flex-direction: row;flex-wrap: nowrap;padding: 10px;">
+                    <button class="codeButton" onclick="ticketingSystem()">
+                        Get Code
+                        <div class="iconButton">
+                            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </button>
+                    <button class="codeButton" onclick="ticketingSystemURL()">
+                        Deployed URL
+                        <div class="iconButton">
+                            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <div class="projectcardDet">
+                <div class="projectcard-image"><img src="./assets/images/todoListBg.jpeg" alt=""> </div>
+                <p class="projectcard-title" style="color: #c49dff;font-size: large;">React Todo Task</p>
+                <p class="projectcard-body"
+                    style=" font-family: 'Gill Sans' , 'Gill Sans MT' , Calibri, 'Trebuchet MS' , sans-serif;padding: 5px;">
+                    Create a todo list with tasks that include a name, description, and a default status of "not
+                    completed". Each task
+                    should have "Edit" and "Delete" buttons for updates and removal. Clicking on the status will open a
+                    dropdown to select
+                    either "completed" or "not completed". Display all tasks as cards. Include a filter option to view
+                    tasks based on
+                    status: completed, not completed, or both.
+                </p>
+                <div class="contaier"
+                    style="justify-content: space-evenly;display: flex;flex-direction: row;flex-wrap: nowrap;padding: 10px;">
+                    <button class="codeButton" onclick="toDoTask()">
+                        Get Code
+                        <div class="iconButton">
+                            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </button>
+                    <button class="codeButton" onclick="toDoTaskURL()">
+                        Deployed URL
+                        <div class="iconButton">
+                            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="projectcardDet">
+                <div class="projectcard-image"><img src="./assets/images/webPageBg.jpeg" alt=""> </div>
+                <p class="projectcard-title" style="color: #c49dff;font-size: large;">Web page with routes</p>
+                <p class="projectcard-body"
+                    style=" font-family: 'Gill Sans' , 'Gill Sans MT' , Calibri, 'Trebuchet MS' , sans-serif;padding: 5px;">
+                    The objective of this task is to create a web page with routes using react-router-dom
+                </p>
+                <div class="contaier"
+                    style="justify-content: space-evenly;display: flex;flex-direction: row;flex-wrap: nowrap;padding: 10px;">
+                    <button class="codeButton" onclick="webPageTask()">
+                        Get Code
+                        <div class="iconButton">
+                            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </button>
+                    <button class="codeButton" onclick="webPageTaskURL()">
+                        Deployed URL
+                        <div class="iconButton">
+                            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </button>
+
+                </div>
+
+            </div>
+            <div class="projectcardDet">
+                <div class="projectcard-image"><img src="./assets/images/todoListBg.jpeg" alt=""> </div>
+                <p class="projectcard-title" style="color: #c49dff;font-size: large;">Countries&Weather using
+                    Fetch API</p>
+                <p class="projectcard-body"
+                    style=" font-family: 'Gill Sans' , 'Gill Sans MT' , Calibri, 'Trebuchet MS' , sans-serif;padding: 5px;">
+                    Using only Fetch API the countries and weather are displayed.
+                </p>
+                <div class="contaier"
+                    style="justify-content: space-evenly;display: flex;flex-direction: row;flex-wrap: nowrap;padding: 10px;">
+                    <button class="codeButton" onclick="restCountriesTask()">
+                        Get Code
+                        <div class="iconButton">
+                            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </button>
+                    <button class="codeButton" onclick="restCountriesTaskURL()">
+                        Deployed URL
+                        <div class="iconButton">
+                            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </button>
+
+                </div>
 
             </div>
 
@@ -334,9 +461,9 @@
             </button>
 
 
-            <a class="footerButton2" href="./assets/images/KAUSIK.M.docx" download="Kausik.M.docx">
+            <button class="footerButton2" onclick="openCv()" alt="">
                 <span>Get CV </span>
-            </a>
+            </button>
         </div>
 
     </footer>

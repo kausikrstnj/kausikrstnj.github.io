@@ -1,6 +1,27 @@
 function ticketingSystem() {
     window.open("https://github.com/kausikrstnj/Zen-class-Ticketing-system-for-query-resolving-frontend", "_blank");
 }
+function ticketingSystemURL() {
+    window.open(" https://fastidious-dasik-71df21.netlify.app/IntroPage", "_blank");
+}
+function toDoTask() {
+    window.open("https://github.com/kausikrstnj/React--Day--5-React-Hooks", "_blank");
+}
+function toDoTaskURL() {
+    window.open("https://65b0bff52d2d44560cff3076--heroic-fudge-53530f.netlify.app/", "_blank");
+}
+function webPageTask() {
+    window.open("https://github.com/kausikrstnj/React--Day--6-Router", "_blank");
+}
+function webPageTaskURL() {
+    window.open("https://65bb3f48e513ea3a82ed0515--stately-crisp-c8a74d.netlify.app/", "_blank");
+}
+function restCountriesTask() {
+    window.open("https://github.com/kausikrstnj/Async-programming--Day--2-Promise", "_blank");
+}
+function restCountriesTaskURL() {
+    window.open("https://zesty-concha-d386d1.netlify.app", "_blank");
+}
 function BootstrapCertificate() {
     window.open('./assets/images/BootstrapCertificate.png', '_blank');
 }
@@ -27,6 +48,9 @@ function NodeJsCertificate() {
 }
 function ReactJSCertificate() {
     window.open('./assets/images/ReactJSCertificate.png', '_blank');
+}
+function openCv() {
+    window.open('./assets/images/kausik_Resume.pdf', '_blank');
 }
 document.addEventListener('DOMContentLoaded', function () {
     const contactButton = document.querySelector('.footerButton1');
