@@ -50,7 +50,7 @@ function ReactJSCertificate() {
     window.open('./assets/images/ReactJSCertificate.png', '_blank');
 }
 function openCv() {
-    window.open('https://drive.google.com/file/d/1D_yHfx1VrmCNhlj_5WW2MR-R49RwoYVZ/view?usp=drive_link', '_blank');
+    window.open('https://drive.google.com/file/d/1tNVr7TfqofTsomSiSXMEyJ3RO2Y9KyxK/view?usp=drive_link', '_blank');
 }
 document.addEventListener('DOMContentLoaded', function () {
     const contactButton = document.querySelector('.footerButton1');
