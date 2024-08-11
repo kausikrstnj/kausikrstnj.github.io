@@ -16,11 +16,11 @@ function webPageTask() {
 function webPageTaskURL() {
     window.open("https://65bb3f48e513ea3a82ed0515--stately-crisp-c8a74d.netlify.app/", "_blank");
 }
-function restCountriesTask() {
-    window.open("https://github.com/kausikrstnj/Async-programming--Day--2-Promise", "_blank");
+function crudAppTask() {
+    window.open("https://github.com/kausikrstnj/React-Day-10-Axios", "_blank");
 }
-function restCountriesTaskURL() {
-    window.open("https://zesty-concha-d386d1.netlify.app", "_blank");
+function crudAppTaskURL() {
+    window.open("https://tangerine-horse-ddf9d1.netlify.app/", "_blank");
 }
 function BootstrapCertificate() {
     window.open('./assets/images/BootstrapCertificate.png', '_blank');
@@ -50,7 +50,7 @@ function ReactJSCertificate() {
     window.open('./assets/images/ReactJSCertificate.png', '_blank');
 }
 function openCv() {
-    window.open('./assets/images/kausik_Resume.pdf', '_blank');
+    window.open('https://drive.google.com/file/d/1D_yHfx1VrmCNhlj_5WW2MR-R49RwoYVZ/view?usp=drive_link', '_blank');
 }
 document.addEventListener('DOMContentLoaded', function () {
     const contactButton = document.querySelector('.footerButton1');
